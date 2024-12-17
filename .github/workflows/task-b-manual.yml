@@ -61,4 +61,4 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: curl index.thml
-        run:  curl 127.0.0.1:8080
+        run: curl 127.0.0.1:8080/index.html
