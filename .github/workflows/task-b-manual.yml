@@ -42,7 +42,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./taks_b/
+          context: ./task_b/
           file: ./task_b/Dockerfile
           push: true
           tags: ghcr.io/${{ github.repository }}:${{ inputs.tag }}
